@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
         designSize: Size(412, 821),
         builder: () => MaterialApp(
-              debugShowCheckedModeBanner: false,
+              debugShowCheckedModeBanner: true,
               title: 'Screen Util',
               home: ResponsiveScreen(),
             ));
